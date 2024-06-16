@@ -1,0 +1,2 @@
+document.querySelectorAll("input").forEach(function(e){var a=document.createElement("label"),t="firstName"===e.name||"lastName"===e.name?e.name.charAt(0).toUpperCase()+e.name.slice(1,-4)+" "+e.name.slice(-4).toLowerCase():e.name.charAt(0).toUpperCase()+e.name.slice(1).toLowerCase();a.className="field-label",a.htmlFor=e.id,a.innerText=t.toUpperCase(),e.parentElement.insertBefore(a,e),e.placeholder=t});
+//# sourceMappingURL=index.cc93cf9e.js.map
